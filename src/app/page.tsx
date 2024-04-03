@@ -1,7 +1,4 @@
 import Image from "next/image";
-import { client, server } from '@passwordless-id/webauthn' 
-import { AuthenticationEncoded, AuthenticationParsed, RegistrationEncoded, RegistrationParsed } from "@passwordless-id/webauthn/dist/esm/types";
-// import { VerifyRegistration, Verifylogin, getRegistration } from "./server/server";
 import { MyButton } from "./myButton";
 
 export default function Home() {
